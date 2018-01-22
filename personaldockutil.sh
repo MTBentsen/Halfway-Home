@@ -32,7 +32,9 @@ sleep 5
 
 /usr/local/bin/dockutil --add /Applications/Skype\ for\ Business.app --after 'Microsoft Outlook' --no-restart $plist
 
-/usr/local/bin/dockutil --add /Applications/Slack.app --after 'Skype for Business' --no-restart $plist
+/usr/local/bin/dockutil --add /Applications/VMware\ Fusion.app --after 'Skype for Business' --no-restart $plist
+
+/usr/local/bin/dockutil --add /Applications/Slack.app --after 'VMware Fusion' --no-restart $plist
 
 /usr/local/bin/dockutil --add /Applications/Self\ Service.app --after 'Slack' --no-restart $plist
 
